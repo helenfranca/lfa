@@ -1,13 +1,15 @@
-# lfa
-Conversão de maquina de mealy para moore e vice-versa.
+# linguagens formais e autômatos.
+O trabalho desenvolvido na linguagem Python consiste em fazer a conversão de uma maquina de mealy para moore e vice-versa. 
 
 #Autores
+Foi desenvolvido pela Helen França e pelo Jadson Pereira.
 
-#Codigo fonte
+#Estrutura de código.
+'''Nome e modo de uso do programa desenvolvido; '''
 
 #Procedimento para compilação
 
-#Nome e modo de uso do programa desenvolvido;
+
 
 #Outras informacoes que os autores julgarem apropriadas para o entendimento
 do trabalho realizado.
