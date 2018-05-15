@@ -18,17 +18,17 @@ Exemplo de máquina de Moore:
 ![Alt text](https://github.com/jadsonpp/lfa/blob/master/prints/exMoore.png)
 
 # Estrutura de código.
-'''  
+``` 
     conversorBib.py
-'''
+```
 Biblioteca com as principais funções para a conversão das máquinas, entre elas estão a de tratar S-Expressions e fazer a conversão das máquinas de mealy pra moore e de moore pra mealy. 
 
-'''
+```
     conversor.py
-'''
+```
 Main programa, 
-  
-'''Nome e modo de uso do programa desenvolvido; '''
+
+  ```Nome e modo de uso do programa desenvolvido; ```
 
 # Procedimento para compilação
 
