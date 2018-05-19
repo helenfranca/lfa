@@ -36,8 +36,8 @@ Biblioteca com as principais funções para a conversão das máquinas, entre el
 
 No prompt de comando:
 ```
-    python conversor.py <nome_do_arquivo_de_entrada.txt>
-    Exemplo: python conversor.py moore.txt
+    python conversor.py -i <nome_do_arquivo_de_entrada.txt>
+    Exemplo: python conversor.py -i moore.txt -o saida.txt
     
 ```
 
