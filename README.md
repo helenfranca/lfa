@@ -33,11 +33,12 @@ Biblioteca com as funções para a conversão das máquinas, entre elas estão a
 
 Funções:
 ```
-    leArquivo(nomeArq) -> Lê o arquivo informado como entrada
-    tokens(texto) -> Recebe um texto e retorna uma lista com todos os tokens
+    * leArquivo(nomeArq) -> Lê o arquivo informado como entrada
+    
+    * tokens(texto) -> Recebe um texto e retorna uma lista com todos os tokens
     maquina(lista,arquivoSaida) -> Recebe uma lista e o aquivo de saída informado; Nessa função decide-se qual 
     a máquina será convertida.
-    maqMealy(lstMealy) -> Recebe uma lista com os tokens da maquina de Mealy e retorna as listas correspondentes 
+    * maqMealy(lstMealy) -> Recebe uma lista com os tokens da maquina de Mealy e retorna as listas correspondentes 
     as palavras-chaves
     maqMoore(lstMoore) -> Recebe uma lista com os tokens da maquina de Moore e retorna as listas correspondentes 
     as palavras-chaves
