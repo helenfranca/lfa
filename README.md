@@ -17,27 +17,41 @@ Exemplo de máquina de Moore:
 <br>Represetado em arquivo como: <br>
 ![Alt text](https://github.com/jadsonpp/lfa/blob/master/prints/exMoore.png)
 
-# Estrutura do código
+# Código fonte
 
-Biblioteca com as principais funções para a conversão das máquinas, entre elas estão a função de tratar S-Expressions e fazer a conversão das máquinas de Mealy pra Moore e de Moore pra Mealy.
-``` 
-    conversorBib.py
-```
  Arquivo principal que realiza a chamada da função de conversão.
 
 ```
     conversor.py
 ```
- 
 
-  ```Nome e modo de uso do programa desenvolvido; ```
+Biblioteca com as funções para a conversão das máquinas, entre elas estão a função de tratar S-Expressions e fazer a conversão das máquinas de Mealy pra Moore e de Moore pra Mealy.
 
+``` 
+    conversorBib.py
+```
+
+Funções:
+```
+    leArquivo(nomeArq) -> Lê o arquivo informado como entrada
+    tokens(texto) -> Recebe um texto e retorna uma lista com todos os tokens
+    maquina(lista,arquivoSaida) -> Recebe uma lista e o aquivo de saída informado; Nessa função decide-se qual a máquina será convertida.
+    maqMealy(lstMealy) -> Recebe uma lista com os tokens da maquina de Mealy e retorna as listas correspondentes as palavras-chaves
+    maqMoore(lstMoore) -> Recebe uma lista com os tokens da maquina de Moore e retorna as listas correspondentes as palavras-chaves
+    comumMaq(lstMealy,index,lstIN,lstOUT,lstEstados,lstFinal,start) -> Recebe as listas correpondentes e em comum as máquinas e as modifica
+    transMealy(DicFn,lstTran) -> Recebe um dicionário com os "out-fn" e uma lista com as transições de Moore e retorna uma lista com as transições em Mealy
+    transMoore(lstTran) -> Recebe uma lista com as transições de Mealy e retorna um dicionário com os "out-fn" e uma lista com as transições de Moore
+    escreve(nome,lst,arquivoSaida) -> Recebe o nome da máquina, uma lista com a máquina a ser escrita e o nome do arquivo de saída que será criado e escreve as informações nele
+    formaTexto(x,lst) -> Recebe uma string x e uma lista com a máquina e retorna uma string formada com as informações em comum das máquinas.
+    
+```
 # Procedimento para compilação
 
 No prompt de comando:
 ```
-    python conversor.py -i <nome_do_arquivo_de_entrada.txt>
-    Exemplo: python conversor.py -i moore.txt -o saida.txt
+    conversor.py -i <nome_do_arquivo_de_entrada.txt> -o <nome_do_arquivo_de_saida.txt>
+    
+    Exemplo: conversor.py -i moore.txt -o saida.txt
     
 ```
 
