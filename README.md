@@ -33,24 +33,32 @@ Biblioteca com as funções para a conversão das máquinas, entre elas estão a
 
 Funções:
 ```
-    * leArquivo(nomeArq) -> Lê o arquivo informado como entrada
+    > leArquivo(nomeArq) -> Lê o arquivo informado como entrada
     
-    * tokens(texto) -> Recebe um texto e retorna uma lista com todos os tokens
-    maquina(lista,arquivoSaida) -> Recebe uma lista e o aquivo de saída informado; Nessa função decide-se qual 
+    > tokens(texto) -> Recebe um texto e retorna uma lista com todos os tokens
+    
+    > maquina(lista,arquivoSaida) -> Recebe uma lista e o aquivo de saída informado; Nessa função decide-se qual 
     a máquina será convertida.
-    * maqMealy(lstMealy) -> Recebe uma lista com os tokens da maquina de Mealy e retorna as listas correspondentes 
+    
+    > maqMealy(lstMealy) -> Recebe uma lista com os tokens da maquina de Mealy e retorna as listas correspondentes 
     as palavras-chaves
-    maqMoore(lstMoore) -> Recebe uma lista com os tokens da maquina de Moore e retorna as listas correspondentes 
+    
+    > maqMoore(lstMoore) -> Recebe uma lista com os tokens da maquina de Moore e retorna as listas correspondentes 
     as palavras-chaves
-    comumMaq(lstMealy,index,lstIN,lstOUT,lstEstados,lstFinal,start) -> Recebe as listas correpondentes e em comum 
+    
+    > comumMaq(lstMealy,index,lstIN,lstOUT,lstEstados,lstFinal,start) -> Recebe as listas correpondentes e em comum 
     as máquinas e as modifica
-    transMealy(DicFn,lstTran) -> Recebe um dicionário com os "out-fn" e uma lista com as transições de Moore e 
+    
+    > transMealy(DicFn,lstTran) -> Recebe um dicionário com os "out-fn" e uma lista com as transições de Moore e 
     retorna uma lista com as transições em Mealy
-    transMoore(lstTran) -> Recebe uma lista com as transições de Mealy e retorna um dicionário com os "out-fn" e 
+    
+    > transMoore(lstTran) -> Recebe uma lista com as transições de Mealy e retorna um dicionário com os "out-fn" e 
     uma lista com as transições de Moore
-    escreve(nome,lst,arquivoSaida) -> Recebe o nome da máquina, uma lista com a máquina a ser escrita e o nome do 
+    
+    > escreve(nome,lst,arquivoSaida) -> Recebe o nome da máquina, uma lista com a máquina a ser escrita e o nome do 
     arquivo de saída que será criado e escreve as informações nele
-    formaTexto(x,lst) -> Recebe uma string x e uma lista com a máquina e retorna uma string formada com as 
+    
+    > formaTexto(x,lst) -> Recebe uma string x e uma lista com a máquina e retorna uma string formada com as 
     informações em comum das máquinas.
     
 ```
