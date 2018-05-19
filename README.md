@@ -11,8 +11,8 @@ A máquina de mealy foi criada por George H. Mealy. <br>
 ![Alt text](https://github.com/helenfranca/lfa/blob/master/prints/mealy.PNG)
 
 ## Máquina de Moore
-"Na teoria da computação, uma máquina de Moore é um autômato de estado finito onde as saídas são determinadas pelo estado corrente apenas (e não pela entrada). O diagrama de estado para uma máquina de Moore inclui um sinal de saída para cada estado." Fonte: [Wikipédia](https://pt.wikipedia.org/wiki/M%C3%A1quina_de_Moore)<br>
-Exemplo de máquina de Moore:
+"Na teoria da computação, uma máquina de Moore é um autômato de estado finito onde as saídas são determinadas pelo estado corrente apenas (e não pela entrada). O diagrama de estado para uma máquina de Moore inclui um sinal de saída para cada estado." Fonte: [Wikipédia](https://pt.wikipedia.org/wiki/M%C3%A1quina_de_Moore)
+<br>Exemplo de máquina de Moore:<br>
 ![Alt text](https://github.com/helenfranca/lfa/blob/master/prints/MaqMoore.PNG)
 <br>Represetado em arquivo como: <br>
 ![Alt text](https://github.com/helenfranca/lfa/blob/master/prints/moore.PNG)
